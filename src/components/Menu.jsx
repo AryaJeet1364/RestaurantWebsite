@@ -2,7 +2,7 @@ import React from "react";
 import { menuData } from "../data";
 import { motion } from "framer-motion";
 import { fadeIn, staggerContainer } from "../variants";
-import { model } from "mongoose";
+
 const Menu = () => {
   const { title, subtitle, modelImg, menuItems, btnText } = menuData;
   return (
